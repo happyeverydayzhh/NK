@@ -18,6 +18,7 @@
 		198708B52667702F00005ED8 /* HJ102.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198708B42667702F00005ED8 /* HJ102.swift */; };
 		198708B726677CEE00005ED8 /* HJ101.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198708B626677CEE00005ED8 /* HJ101.swift */; };
 		198708B92667899300005ED8 /* HJ100等差数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198708B82667899300005ED8 /* HJ100等差数列.swift */; };
+		F33342DE2667CF9500AAB910 /* HJ99自守数.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33342DD2667CF9500AAB910 /* HJ99自守数.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,7 @@
 		198708B42667702F00005ED8 /* HJ102.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HJ102.swift; sourceTree = "<group>"; };
 		198708B626677CEE00005ED8 /* HJ101.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HJ101.swift; sourceTree = "<group>"; };
 		198708B82667899300005ED8 /* HJ100等差数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HJ100等差数列.swift"; sourceTree = "<group>"; };
+		F33342DD2667CF9500AAB910 /* HJ99自守数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HJ99自守数.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				198708B22667387400005ED8 /* HJ103.swift */,
 				198708B42667702F00005ED8 /* HJ102.swift */,
 				198708B626677CEE00005ED8 /* HJ101.swift */,
+				F33342DD2667CF9500AAB910 /* HJ99自守数.swift */,
 			);
 			path = NK;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				198708B32667387400005ED8 /* HJ103.swift in Sources */,
 				1930D104266731C90064031B /* HJ105.m in Sources */,
 				1930D0F8266716160064031B /* HJ108.swift in Sources */,
+				F33342DE2667CF9500AAB910 /* HJ99自守数.swift in Sources */,
 				1930D0FC266724670064031B /* HJ106.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;

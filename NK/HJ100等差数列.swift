@@ -8,6 +8,7 @@
 import Foundation
 
 /*
+ https://www.nowcoder.com/practice/f792cb014ed0474fb8f53389e7d9c07f?tpId=37&&tqId=21323&rp=1&ru=/ta/huawei&qru=/ta/huawei/question-ranking
  等差数列
  描述
  功能:等差数列 2，5，8，11，14。。。。
@@ -36,8 +37,15 @@ func HJ100_等差数列() {
     while let str = readLine() {
 
         let d = 3
-        let a = 2
+        var a1 = 2
         let n = Int(str) ?? 0
+        var sum = 0
         
+        for _ in 0..<n {
+            sum = sum + a1
+            a1 += d
+        }
+        
+        print(sum)
     }
 }
