@@ -25,7 +25,7 @@ import Foundation
 //输出：
 //tneduts a ma I
 
-func reverseString() {
+func HJ106字符逆序() {
     while let str = readLine() {
         var res = ""
         for item in str.map{$0}.reversed() {

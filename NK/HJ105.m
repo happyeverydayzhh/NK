@@ -9,6 +9,7 @@
 
 @implementation HJ105
 
+//HJ105记负均正II
 - (void)pingjunshuOC {
     int num;
     int cnt1 = 0; //非负数个数

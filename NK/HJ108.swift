@@ -29,12 +29,12 @@ func minGBS() {
         let inputList = input.split(separator: " ")
         let a = Int(inputList.first ?? "") ?? 0
         let b = Int(inputList.last ?? "") ?? 0
-        let num = gbs(a, b)
+        let num = HJ108求最小公倍数(a, b)
         print(num)
     }
 }
 
-func gbs(_ a: Int, _ b: Int) -> Int {
+func HJ108求最小公倍数(_ a: Int, _ b: Int) -> Int {
     if a == 0 || b == 0 {
         return 0
     }

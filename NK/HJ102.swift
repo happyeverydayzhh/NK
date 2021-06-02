@@ -30,11 +30,7 @@ import Foundation
 //说明：
 //第一个样例里，c和d出现3次，a出现2次，但c的ASCII码比d小，所以先输出c，再输出d，最后输出a.
 
-func 字符统计() {
-    let dic = ["a": 1, "b": 10, "c": 156, "d": 16, "e": 31, "f": 109, "g": 91, "h": 31, "i": 901]
-    let a1 = dic.keys
-    let b1 = dic.values
-    print(a1, b1)
+func HJ102字符统计() {
     while let str = readLine() {
         var dict = [String: Int]()
         for i in str {

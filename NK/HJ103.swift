@@ -39,7 +39,7 @@ import Foundation
 //从第5格开始走最多有2步,4 5
 //所以这个结果是3。
 
-func meihuazhuang() {
+func HJ103梅花桩() {
     while let n = Int(readLine() ?? ""), let line = readLine() {
         if n <= 0 {
             print(0)

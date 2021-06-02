@@ -26,7 +26,7 @@ import Foundation
 //输出：
 //6.0
 
-func lifanggen() {
+func hj107求解立方根() {
     while let input = readLine() {
         let num = Double(input) ?? 0
         var a: Double = 0

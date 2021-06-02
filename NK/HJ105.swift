@@ -39,7 +39,7 @@ import Foundation
 //0.0
 //复制
 
-func pingjunshu() {
+func HJ105记负均正II() {
     while let str = readLine() {
         let ress = str.split(separator: " ")
 
